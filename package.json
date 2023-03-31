@@ -1,0 +1,10 @@
+{
+    "name": "Tailwind Microweber Template",
+    "scripts": {
+        "build": "tailwindcss build ./src/style.css -o ./dist/style.css",
+        "dev": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.3.1"
+    }
+}
