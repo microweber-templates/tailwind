@@ -1,2 +1,1 @@
 # tailwind
-Microweber Tailwind Template
