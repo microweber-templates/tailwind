@@ -6,7 +6,7 @@
     <link href="<?php echo template_url(); ?>dist/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="bg-white">
+<div field="dae1-field" rel="module" class="allowdrop edit bg-white">
     <header>
         <div class="relative bg-white">
             <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
@@ -273,7 +273,7 @@
     </main>
 </div>
 
-<div class="bg-white">
+<div field="dae2-field" rel="module" class="allowdrop edit bg-white">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="bg-indigo-700 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
             <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
@@ -293,7 +293,7 @@
     </div>
 </div>
 
-<div class="relative bg-white py-16 sm:py-24 lg:py-32">
+<div field="dae3-field" rel="module" class="allowdrop edit relative bg-white py-16 sm:py-24 lg:py-32">
     <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 class="text-base font-semibold uppercase tracking-wider text-indigo-600">Deploy faster</h2>
         <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Everything you need to deploy your app</p>
@@ -407,7 +407,7 @@
     </div>
 </div>
 
-<div class="relative bg-white pt-16 pb-32 overflow-hidden">
+<div field="dae4-field" rel="module" class="allowdrop edit relative bg-white pt-16 pb-32 overflow-hidden">
     <div class="relative">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
             <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -487,7 +487,7 @@
     </div>
 </div>
 
-<div class="bg-white">
+<div field="dae5-field" rel="module" class="allowdrop edit bg-white">
     <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
         <div class="py-10 px-6 bg-indigo-700 rounded-3xl sm:py-16 sm:px-12 lg:p-20 lg:flex lg:items-center">
             <div class="lg:w-0 lg:flex-1">
