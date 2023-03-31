@@ -273,6 +273,140 @@
     </main>
 </div>
 
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="bg-indigo-700 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+            <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+                <div class="lg:self-center">
+                    <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                        <span class="block">Ready to dive in?</span>
+                        <span class="block">Start your free trial today.</span>
+                    </h2>
+                    <p class="mt-4 text-lg leading-6 text-indigo-200">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+                    <a href="#" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50">Sign up for free</a>
+                </div>
+            </div>
+            <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+                <img class="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg" alt="App screenshot">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="relative bg-white py-16 sm:py-24 lg:py-32">
+    <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 class="text-base font-semibold uppercase tracking-wider text-indigo-600">Deploy faster</h2>
+        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Everything you need to deploy your app</p>
+        <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
+        <div class="mt-12">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="pt-6">
+                    <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                  <!-- Heroicon name: outline/cloud-upload -->
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                  </svg>
+                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">Push to Deploy</h3>
+                            <p class="mt-5 text-base text-gray-500">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                  <!-- Heroicon name: outline/lock-closed -->
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">SSL Certificates</h3>
+                            <p class="mt-5 text-base text-gray-500">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                  <!-- Heroicon name: outline/refresh -->
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                  </svg>
+                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">Simple Queues</h3>
+                            <p class="mt-5 text-base text-gray-500">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                  <!-- Heroicon name: outline/shield-check -->
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">Advanced Security</h3>
+                            <p class="mt-5 text-base text-gray-500">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                  <!-- Heroicon name: outline/cog -->
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">Powerful API</h3>
+                            <p class="mt-5 text-base text-gray-500">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                  <!-- Heroicon name: outline/server -->
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                  </svg>
+                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">Database Backups</h3>
+                            <p class="mt-5 text-base text-gray-500">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="relative bg-white pt-16 pb-32 overflow-hidden">
     <div class="relative">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
@@ -352,6 +486,32 @@
         </div>
     </div>
 </div>
+
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
+        <div class="py-10 px-6 bg-indigo-700 rounded-3xl sm:py-16 sm:px-12 lg:p-20 lg:flex lg:items-center">
+            <div class="lg:w-0 lg:flex-1">
+                <h2 class="text-3xl font-extrabold tracking-tight text-white">Sign up for our newsletter</h2>
+                <p class="mt-4 max-w-3xl text-lg text-indigo-100">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat.</p>
+            </div>
+            <div class="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
+                <form class="sm:flex">
+                    <label for="email-address" class="sr-only">Email address</label>
+                    <input id="email-address" name="email-address" type="email" autocomplete="email" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md" placeholder="Enter your email">
+                    <button type="submit" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">Notify me</button>
+                </form>
+                <p class="mt-3 text-sm text-indigo-100">
+                    We care about the protection of your data. Read our
+                    <a href="#" class="text-white font-medium underline"> Privacy Policy. </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+    include_once 'footer.php';
+?>
 
 </body>
 </html>
