@@ -280,17 +280,12 @@
             <div class="bg-white shadow">
                 <div class="max-w-7xl mx-auto">
                     <div class="">
-                        <div class="h-24 flex items-center justify-between">
-                            <div class="hidden lg:flex lg:items-center">
-                               <module type="logo" template="logo" />
-                            </div>
-                            <div class="hidden h-full lg:flex">
-                                <div class="ml-12">
-                                    <div class="h-full flex justify-center">
-                                        <module type="menu" template="header-main-menu" />
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="h-24 flex items-center justify-between h-full">
+
+                            <module type="logo" template="logo" />
+
+                            <module type="menu" template="header-main-menu" />
+
                             <div class="flex-1 flex items-center lg:hidden">
                                 <button x-on:click="showMobileMenu = true" type="button" class="ml-2 bg-white p-2 rounded-md text-gray-400">
                                     <span class="sr-only">Oтвори мобилно меню</span>
@@ -438,6 +433,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
