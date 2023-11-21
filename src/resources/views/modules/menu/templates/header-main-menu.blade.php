@@ -1,6 +1,5 @@
-<div class="hidden lg:flex">
-    <div class="ml-12">
-<div class="h-full flex justify-center py-4">
+<div class="ml-12">
+<div class="h-full flex justify-center">
     <div x-data="{showCategoryChildren: false}" class="flex">
         <div class="relative flex">
             <button x-on:click.outside="showCategoryChildren = false" x-on:click="showCategoryChildren = ! showCategoryChildren"
@@ -156,6 +155,5 @@
         </div>
 
     </div>
-</div>
 </div>
 </div>

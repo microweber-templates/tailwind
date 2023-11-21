@@ -280,11 +280,11 @@
             <div class="bg-white shadow">
                 <div class="max-w-7xl mx-auto">
                     <div class="">
-                        <div class="h-24 flex items-center justify-between h-full">
+                        <div class="h-24 flex items-center justify-between">
 
-                            <module type="logo" template="logo" />
+                            <module type="logo" template="logo" class="hidden lg:flex lg:items-center" />
 
-                            <module type="menu" template="header-main-menu" />
+                            <module type="menu" template="header-main-menu" class="hidden h-full lg:flex" />
 
                             <div class="flex-1 flex items-center lg:hidden">
                                 <button x-on:click="showMobileMenu = true" type="button" class="ml-2 bg-white p-2 rounded-md text-gray-400">
@@ -433,7 +433,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
