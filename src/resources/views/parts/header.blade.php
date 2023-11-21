@@ -282,7 +282,7 @@
                     <div class="">
                         <div class="h-24 flex items-center justify-between">
                             <div class="hidden lg:flex lg:items-center">
-                               <module type="logo" _template="logo" />
+                               <module type="logo" template="logo" />
                             </div>
                             <div class="hidden h-full lg:flex">
                                 <div class="ml-12">
