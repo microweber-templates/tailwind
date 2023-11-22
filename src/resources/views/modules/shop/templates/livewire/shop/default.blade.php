@@ -14,16 +14,16 @@
 
                 <div class="w-[20rem]">
                     <div class="bg-white rounded px-4 py-2 divide-y divide-gray-200 shadow">
-                        @include('microweber-module-shop::livewire.filters.categories.index')
-                        @include('microweber-module-shop::livewire.filters.custom_fields.index')
-                        @include('microweber-module-shop::livewire.filters.tags.index')
+                        @include('microweber-module-shop::livewire.shop.filters.categories.index')
+                        @include('microweber-module-shop::livewire.shop.filters.custom_fields.index')
+                        @include('microweber-module-shop::livewire.shop.filters.tags.index')
                     </div>
                 </div>
 
                 <div class="w-full">
 
                     <div class="mb-8">
-                        @include('microweber-module-shop::livewire.filters.top.index')
+                        @include('microweber-module-shop::livewire.shop.filters.top.index')
                     </div>
 
                     @if($products->count() == 0)
