@@ -30,6 +30,7 @@ class TailwindServiceProvider extends PackageServiceProvider
 
         View::addNamespace('microweber-module-shop',
             __DIR__ . '/../resources/views/modules/shop/templates');
+
     }
 
 }
