@@ -1,8 +1,7 @@
-<div class="mt-4 text-left">
-    <div class="font-bold text-xl">Categories</div>
+<div class="py-4 text-left">
     <div class="mt-2">
         <div>
-           <span class="text-gray-500 @if(!$filteredCategory) font-bold @endif"
+           <span class="@if(!$filteredCategory) font-bold @endif"
                        wire:click="filterClearCategory()">
                All Categories
             </span>

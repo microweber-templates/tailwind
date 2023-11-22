@@ -10,10 +10,10 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-3">
+            <div class="flex gap-4">
 
                 <div class="w-[20rem]">
-                    <div class="bg-gray-100 px-4 py-2">
+                    <div class="bg-white rounded px-4 py-2 divide-y divide-gray-200 space-y-10">
                         @include('microweber-module-shop::livewire.filters.categories.index')
                         @include('microweber-module-shop::livewire.filters.custom_fields.index')
                         @include('microweber-module-shop::livewire.filters.tags.index')
@@ -27,14 +27,14 @@
                     </div>
 
                     @if($products->count() == 0)
-                        <div class="text-xl">
+                        <div class="text-md px-4 py-2 bg-blue-200 text-blue-600 rounded">
                             No products found in this category.
                         </div>
                     @else
                         <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
                         @foreach($products as $product)
                             <div><a href="{{$product->link()}}">
-                                    <div class="group relative aspect-w-1 aspect-h-1 shadow-md bg-gray-100 overflow-hidden"><img
+                                    <div class="group relative aspect-w-1 aspect-h-1 rounded shadow-md bg-gray-100 overflow-hidden"><img
                                             src="{{$product->thumbnail(600,700, true)}}"
                                             alt="{{$product->title}}"
                                             class="object-center object-cover">
@@ -66,7 +66,7 @@
                                     </div>
                                 </div>
                                 <div><a href="{{$product->link()}}"
-                                        class="w-full flex gap-2 justify-center items-center bg-black text-sm text-white hover:bg-red-700 px-4 py-4 mt-2">
+                                        class="w-full flex gap-2 justify-center items-center rounded bg-black text-sm text-white hover:bg-red-700 px-4 py-4 mt-2">
                                         Добави в количката
                                         <svg cursor="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                              stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

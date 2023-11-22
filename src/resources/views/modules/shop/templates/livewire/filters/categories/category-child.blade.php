@@ -1,7 +1,7 @@
 @if(isset($category))
     <div class="pl-3">
 
-        <button type="button" class="flex text-gray-900">
+        <button type="button" class="flex @if($category->id == $filteredCategory) font-bold @endif">
             <div class="px-2 py-1" wire:click="filterCategory('{{$category->id}}')">
                 {{ $category->title }}
             </div>
