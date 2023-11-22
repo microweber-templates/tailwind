@@ -13,7 +13,7 @@
             <div class="flex gap-4">
 
                 <div class="w-[20rem]">
-                    <div class="bg-white rounded px-4 py-2 divide-y divide-gray-200 space-y-10">
+                    <div class="bg-white rounded px-4 py-2 divide-y divide-gray-200 shadow">
                         @include('microweber-module-shop::livewire.filters.categories.index')
                         @include('microweber-module-shop::livewire.filters.custom_fields.index')
                         @include('microweber-module-shop::livewire.filters.tags.index')
@@ -55,8 +55,8 @@
                                             <a href="{{$product->link()}}"  class="font-medium text-black">
 
                                                 @if($product->hasSpecialPrice())
-                                                    <span class="text-red-600"> {{currency_format($product->specialPrice)}} </span>
-                                                    <span class="line-through text-gray-500"> {{currency_format($product->price)}} </span>
+                                                    <span class="text-sm line-through text-gray-500"> {{currency_format($product->price)}} </span>
+                                                    <span class="text-red-600 text-xl"> {{currency_format($product->specialPrice)}} </span>
                                                 @else
                                                     <span class="text-red-600"> {{currency_format($product->price)}} </span>
                                                 @endif
