@@ -7,7 +7,7 @@
             </span>
         </div>
         @foreach($availableCategories as $category)
-            @include('microweber-module-shop::livewire.filters.categories.category-child', ['category' => $category])
+            @include('microweber-module-shop::livewire.shop.filters.categories.category-child', ['category' => $category])
         @endforeach
     </div>
 </div>

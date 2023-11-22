@@ -19,16 +19,16 @@ class TailwindServiceProvider extends PackageServiceProvider
     {
         parent::register();
 
-        View::addNamespace('microweber-module-social-links',
+        View::prependNamespace('microweber-module-social-links',
             __DIR__ . '/../resources/views/modules/social_links/templates');
 
-        View::addNamespace('microweber-module-logo',
+        View::prependNamespace('microweber-module-logo',
             __DIR__ . '/../resources/views/modules/logo/templates');
 
-        View::addNamespace('microweber-module-menu',
+        View::prependNamespace('microweber-module-menu',
             __DIR__ . '/../resources/views/modules/menu/templates');
 
-        View::addNamespace('microweber-module-shop',
+        View::prependNamespace('microweber-module-shop',
             __DIR__ . '/../resources/views/modules/shop/templates');
 
     }
