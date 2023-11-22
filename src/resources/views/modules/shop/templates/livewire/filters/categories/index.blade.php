@@ -1,5 +1,5 @@
 <div class="py-4 text-left">
-    <div class="mt-2">
+    <div>
         <div>
            <span class="@if(!$filteredCategory) font-bold @endif"
                        wire:click="filterClearCategory()">
