@@ -1,5 +1,6 @@
-<div class="flex justify-between mt-3">
+<div class="flex justify-between items-center mt-3">
     <div class="w-full">
+        <label>Search</label>
         <input type="text" class="bg-gray-200 px-3 py-2 text-black w-full" wire:model="keywords" placeholder="Type to search...">
     </div>
     <div class="w-full flex gap-2 justify-end">

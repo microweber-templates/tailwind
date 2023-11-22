@@ -22,7 +22,7 @@
 
                 <div class="w-full">
 
-                    <div class="mb-4">
+                    <div class="mb-8">
                         @include('microweber-module-shop::livewire.filters.top.index')
                     </div>
 
