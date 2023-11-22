@@ -14,12 +14,15 @@
                 </div>
                 <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"></div>
             </div>
-            <div class="grid grid-cols-2">
-                <div>
-                    qko
+            <div class="flex gap-3">
+
+                <div class="w-[20rem]">
+                    @include('microweber-module-shop::livewire.filters.tags.index')
+                    @include('microweber-module-shop::livewire.filters.categories.index')
+                    @include('microweber-module-shop::livewire.filters.custom_fields.index')
                 </div>
 
-                <div>
+                <div class="w-full">
                     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
 
                         @foreach($products as $product)
