@@ -2,7 +2,7 @@
 
     <div>
         @foreach($availableCustomFields as $customField)
-            <div>{{$customField->name}}</div>
+            <div class="font-bold text-xl">{{$customField->name}}</div>
             <div class="mt-2 mb-2">
                 @foreach($customField->values as $customFieldValue)
                     <label class="form-check">

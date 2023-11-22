@@ -9,24 +9,29 @@
                         </h1>
                     </div>
                 </div>
-                <div>
-                    @include('microweber-module-shop::livewire.filters.top.index')
-                </div>
-                <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"></div>
             </div>
             <div class="flex gap-3">
 
                 <div class="w-[20rem]">
-                    <div class="bg-gray-200 px-4 py-2">
-                        @include('microweber-module-shop::livewire.filters.tags.index')
+                    <div class="bg-gray-100 px-4 py-2">
                         @include('microweber-module-shop::livewire.filters.categories.index')
                         @include('microweber-module-shop::livewire.filters.custom_fields.index')
+                        @include('microweber-module-shop::livewire.filters.tags.index')
                     </div>
                 </div>
 
                 <div class="w-full">
-                    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
 
+                    <div class="mb-4">
+                        @include('microweber-module-shop::livewire.filters.top.index')
+                    </div>
+
+                    @if($products->count() == 0)
+                        <div class="text-xl">
+                            No products found in this category.
+                        </div>
+                    @else
+                        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
                         @foreach($products as $product)
                             <div><a href="{{$product->link()}}">
                                     <div class="group relative aspect-w-1 aspect-h-1 shadow-md bg-gray-100 overflow-hidden"><img
@@ -61,7 +66,7 @@
                                     </div>
                                 </div>
                                 <div><a href="{{$product->link()}}"
-                                        class="w-full flex justify-center items-center bg-black text-white hover:bg-red-700 uppercase px-4 py-4 mt-2">
+                                        class="w-full flex gap-2 justify-center items-center bg-black text-sm text-white hover:bg-red-700 px-4 py-4 mt-2">
                                         Добави в количката
                                         <svg cursor="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                              stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -71,9 +76,9 @@
                                     </a></div>
                             </div>
                         @endforeach
+                        </div>
+                    @endif
 
-
-                    </div>
                     <div class="mt-6">
                         <div class="flex gap-2">
                             {{ $products->links("livewire-tables::specific.bootstrap-4.pagination") }}

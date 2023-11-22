@@ -1,17 +1,23 @@
 @if(isset($category))
-    <li>
-        <span
-            class="list-group-item list-group-item-action @if($category->id == $filteredCategory) active @endif"
-            wire:click="filterCategory('{{$category->id}}')">
-            {{ $category->title }}
-        </span>
+    <div class="pl-3">
+
+        <button type="button" class="flex text-gray-900">
+            <div class="px-2 py-1" wire:click="filterCategory('{{$category->id}}')">
+                {{ $category->title }}
+            </div>
+            @if($category->id == $filteredCategory)
+                <div class="flex items-center px-2 text-sm bg-red-400 text-white rounded" wire:click="filterCategory('')">
+                    X
+                </div>
+            @endif
+        </button>
 
         @if(!empty($category->children))
-            <ul>
+            <div>
                 @foreach($category->children as $category)
-                    @include('microweber-module-shop::livewire.shop.filters.categories.category-child', ['category' => $category])
+                    @include('microweber-module-shop::livewire.filters.categories.category-child', ['category' => $category])
                 @endforeach
-            </ul>
+            </div>
         @endif
-    </li>
+    </div>
 @endif
